@@ -45,4 +45,8 @@ function sortearAmigo() {
     } else {
         alert("No hay amigos en la lista. Por favor, agrega algunos nombres.");
     }
+
+        // Ocultar la lista de amigos después del sorteo
+        document.getElementById('listaAmigos').style.display = "none";
+
 }
